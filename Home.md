@@ -19,3 +19,13 @@ to share and reuse content.
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 If you contribute content to this wiki, you are accepting to publish your work under the same license.
+
+## Contributing
+
+The best start is to check the existing pages and see if you can improve them. This gets you a good idea of what this is all about. If you can provide content for new pages, you can add them as well.
+
+<<GlobalTOC("All pages")>>
+
+All contributions are done using pull requests on Github. You can preview your changes by checking out your fork locally and running `gollum` in the repository root. Then your local changes can be previewed at http://localhost:4567/ in the browser.
+
+**Every typo is worth fixing!** We encourage you to strive for perfection. We happily accept contributions that fix grammar or only change a single character if that improves the readability for our users.
