@@ -28,7 +28,8 @@ $ sudo npm install -g pm2
 ## Sync blockchain
 
 ```
-$ ./lisk.sh rebuild -u https://testnet-snapshot.mylisk.com -f blockchain.db.gz
+$ wget https://testnet-snapshot.mylisk.com/blockchain.db.gz 
+$ ./lisk.sh rebuild -f blockchain.db.gz
 ```
 
 this takes a cuple of minutes. Now you can verify that lisk is syncing:
