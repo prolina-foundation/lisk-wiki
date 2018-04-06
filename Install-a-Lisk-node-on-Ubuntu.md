@@ -81,3 +81,5 @@ Verify the running state using
 $ systemctl status lisk-node
 $ /workspace/lisk/lisk.sh logs
 ```
+
+That's it! You have a running Lisk node that syncs with the network.
