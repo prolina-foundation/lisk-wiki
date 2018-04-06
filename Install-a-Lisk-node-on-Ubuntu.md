@@ -32,7 +32,7 @@ $ wget https://testnet-snapshot.mylisk.com/blockchain.db.gz
 $ ./lisk.sh rebuild -f blockchain.db.gz
 ```
 
-this takes a cuple of minutes. Now you can verify that lisk is syncing:
+this takes a couple of minutes. Now you can verify that Lisk is syncing:
 
 ```
 $ ./lisk.sh status
@@ -44,4 +44,40 @@ or watch the logs:
 
 ```
 tail -f logs/lisk.log
+```
+
+## Create a service
+
+The Lisk node is only running because `./lisk.sh rebuild` keeps it running. As soon as you restart the machine, the node will be down. PostgreSQL however is installed as a system service and started automatically.
+
+To let the Lisk node start together with the computer, we create the file `/etc/systemd/system/lisk-node.service` with
+
+```
+[Unit]
+Description=Lisk Node
+Requires=postgresql.service
+
+[Service]
+Type=forking
+User={{ user }}
+Group={{ user }}
+ExecStart=/workspace/lisk/lisk.sh start_node
+ExecStop=/workspace/lisk/lisk.sh stop_node
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Make sure to replace {{ user }} with the user name you are logged in with. Now you can enable ans start the Lisk node service:
+
+```
+$ sudo systemctl enable lisk-node
+$ sudo systemctl start lisk-node
+```
+
+Verify the running state using
+
+```
+$ systemctl status lisk-node
+$ /workspace/lisk/lisk.sh logs
 ```
