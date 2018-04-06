@@ -68,7 +68,7 @@ ExecStop=/workspace/lisk/lisk.sh stop_node
 WantedBy=multi-user.target
 ```
 
-Make sure to replace {{ user }} with the user name you are logged in with. Now you can enable ans start the Lisk node service:
+Make sure to replace {{ user }} with the user name you are logged in with. Now you enable and start the Lisk node service:
 
 ```
 $ sudo systemctl enable lisk-node
