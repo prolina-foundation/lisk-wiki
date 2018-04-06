@@ -29,3 +29,13 @@ The best start is to check the existing pages and see if you can improve them. T
 All contributions are done using pull requests on Github. You can preview your changes by checking out your fork locally and running `gollum` in the repository root. Then your local changes can be previewed at http://localhost:4567/ in the browser.
 
 **Every typo is worth fixing!** We encourage you to strive for perfection. We happily accept contributions that fix grammar or only change a single character if that improves the readability for our users.
+
+### Wishlist
+
+If you'd like to start contributing today but don't know where to start, you can pick up a page from the wishlist:
+
+* Lisk vs. Crypti
+* Lisk vs. Ark
+* How to buy Lisk (LSK)
+* lightcurve GmbH
+* Lisk Foundation
