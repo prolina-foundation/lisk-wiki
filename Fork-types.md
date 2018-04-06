@@ -5,11 +5,7 @@ There are currently 5 types of forks known in Lisk:
 Client receives block with expected height (last height + 1) but the
 block's parent ID is different from the last block known to the client.
 
-### Resolution:
-
-Discard the incoming block.
-
-If incoming block older than the last block of the local chain,
+**Resolution:** Discard the incoming block. If incoming block older than the last block of the local chain,
 remove the last two local blocks.
 
 ## Fork type 2
@@ -17,22 +13,16 @@ remove the last two local blocks.
 An incoming block contains a transaction that was already confirmed by
 another block.
 
-### Resolution:
-
-Discard the incoming block.
+**Resolution:** Discard the incoming block.
 
 ## Fork type 3
 
 A mismatch between the expected public key and the public key used to sign
 the incoming block.
 
-### Possible cause
+**Possible cause:** The block was not forged by the right delegate
 
-The block was not forged by the right delegate
-
-### Resolution
-
-Discard the block
+**Resolution:** Discard the block
 
 ## Fork type 4
 
@@ -43,11 +33,9 @@ No information were found about this fork type. It may not exist.
 An incoming block has the same block height and the same parent ID, but a
 different block ID than the last local block.
 
-### Possible cause
+**Possible cause:** Double forging
 
-Double forging
-
-### Resolution
+**Resolution:**
 
 * If incoming block is newer than the last local block, discard incoming block
 * Otherwise, remove last local block and replace with incoming block
