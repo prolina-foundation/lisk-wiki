@@ -62,7 +62,7 @@ This resolution strategy is still in progress, see
 For two blocks different blocks, the strict total order
 liskBlockNewerThen (`>`) is defined as
 
-```
+```javascript
 function liskBlockNewerThen(a, b) {
     return a.timestamp > b.timestamp
         || (a.timestamp == b.timestamp && a.id > b.id)
