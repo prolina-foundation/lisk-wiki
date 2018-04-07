@@ -36,6 +36,8 @@ If you'd like to start contributing today but don't know where to start, you can
 
 * Lisk vs. Crypti
 * Lisk vs. Ark
+* Lisk vs. Shift
+* Lisk vs. Oxycoin
 * How to buy Lisk (LSK)
 * lightcurve GmbH
 * Lisk Foundation
