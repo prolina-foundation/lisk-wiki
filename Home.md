@@ -26,7 +26,8 @@ The best start is to check the existing pages and see if you can improve them. T
 
 <<GlobalTOC("All pages")>>
 
-All contributions are done using pull requests on Github. You can preview your changes by checking out your fork locally and running `gollum` in the repository root. Then your local changes can be previewed at http://localhost:4567/ in the browser.
+All contributions are done using [pull requests on Github](https://github.com/prolina-foundation/lisk-wiki).
+You can preview your changes by checking out your fork locally and running `gollum` in the repository root. Then your local changes can be previewed at http://localhost:4567/ in the browser.
 
 **Every typo is worth fixing!** We encourage you to strive for perfection. We happily accept contributions that fix grammar or only change a single character if that improves the readability for our users.
 
