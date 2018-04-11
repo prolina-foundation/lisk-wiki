@@ -1,6 +1,6 @@
 ## Get a wallet
 
-First of all, you need a Lisk wallet, a software used to access the blockchain. The official wallet software of Lisk is called Lisk Hub. Download the latest stable version of Lisk Hub for your operating system: https://github.com/LiskHQ/lisk-hub/releases
+First of all, you need a [Lisk wallet](/Wallets), a software used to access the blockchain. The official wallet software of Lisk is called Lisk Hub. Download the latest stable version of Lisk Hub for your operating system: https://github.com/LiskHQ/lisk-hub/releases
 
 ## Create a Lisk ID
 
