@@ -41,4 +41,3 @@ If you'd like to start contributing today but don't know where to start, you can
 * Lisk vs. Oxycoin
 * lightcurve GmbH
 * Lisk Foundation
-* Wallets
