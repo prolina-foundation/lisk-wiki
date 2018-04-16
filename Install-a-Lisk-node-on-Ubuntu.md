@@ -6,7 +6,7 @@ This was tested using Ubuntu 18.04 LTS but should work very similar in other ver
 
 ```
 $ sudo apt-get update && sudo apt-get upgrade -y
-$ sudo apt-get install -y curl git npm libtool autoconf libpq-dev postgresql jq
+$ sudo apt-get install -y curl git npm libtool autoconf automake build-essential libpq-dev postgresql jq
 $ sudo mkdir /workspace
 $ sudo chown $USER:$USER /workspace
 $ cd /workspace
