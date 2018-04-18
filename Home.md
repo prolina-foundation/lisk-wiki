@@ -53,4 +53,4 @@ If you'd like to start contributing today but don't know where to start, you can
 * Binary Installation
 * Docker Installation
 * How to become a Delegate
-
+* Passphrase
