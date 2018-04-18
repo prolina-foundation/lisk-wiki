@@ -41,3 +41,16 @@ If you'd like to start contributing today but don't know where to start, you can
 * Lisk vs. Oxycoin
 * lightcurve GmbH
 * Lisk Foundation
+* Snapshot
+* Scaling Approaches used with Lisk
+* Lisk Commander
+* Lisk Elements
+* Lisk Hub
+* Lisk Core
+* About the Founders
+* About the ICO
+* Communication Channels
+* Binary Installation
+* Docker Installation
+* How to become a Delegate
+
