@@ -47,11 +47,10 @@ If you'd like to start contributing today but don't know where to start, you can
 * Lisk Elements
 * Lisk Hub
 * Lisk Core
-* Lightcurve
 * About the Founders
 * About the ICO
 * Communication Channels
 * Binary Installation
 * Docker Installation
-* How to become a delegate
+* How to become a Delegate
 
