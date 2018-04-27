@@ -8,6 +8,8 @@ Lisk Hub is the modern, official wallet made by LiskHQ.
 * Supported platforms: Windows, Linux, macOS
 * Download: https://github.com/LiskHQ/lisk-hub/releases
 
+[[/uploads/LiskHub-Screenshot-macOS.png]]
+
 ## Lisk Nano
 
 Lisk Nano is the legacy wallet made by LiskHQ.
