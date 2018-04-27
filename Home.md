@@ -54,7 +54,7 @@ If you'd like to start contributing today but don't know where to start, you can
 * Docker Installation
 * How to become a Delegate
 * Passphrase
-* Transactions per second
+* Network speed (Transactions per second, latency, confirmations)
 * Transaction
 * Block
 * Broadhash consensus
