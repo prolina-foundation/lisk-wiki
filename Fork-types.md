@@ -45,13 +45,16 @@ This resolution strategy is still in progress, see
 
 ## Operations
 
-### liskBlockNewerThen
+### B beats A
 
-For two blocks different blocks, the strict total order
-liskBlockNewerThen (`>`) is defined as
+For two blocks different blocks, there is a strict total order `beats`,
+where `B beats A` means that block B will remain in the blockchain
+and A is dropped.
+
+`B beats A` is implemeted as follows
 
 ```javascript
-function liskBlockNewerThen(a, b) {
+function bBeatsA(a, b) {
     return a.timestamp > b.timestamp
         || (a.timestamp == b.timestamp && a.id > b.id)
 }
@@ -61,9 +64,6 @@ Note: `a.id > b.id` is defined on JavaScript strings, so this is
 string comparison. There is no semantic meaning in this part. It just
 ensures that for two different blocks, one is always defined as newer.
 
-For two different blocks A, B with A.id != B.id, we have the property
+For two different blocks A, B either `A beats B` or `B beats A`.
 
-* A > B is false => B > A is true
-
-A block C is defined as older than D if and only if
-C is now newer than D.
+The relation is transitive: `C beats B` and `B beats A` implies `C beats A`.
