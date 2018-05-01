@@ -60,3 +60,4 @@ If you'd like to start contributing today but don't know where to start, you can
 * Block
 * Broadhash consensus
 * Address collision and initialization
+* Delegated proof of stake (Lisk's implementation of dPOS)
