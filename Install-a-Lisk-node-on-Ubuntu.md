@@ -1,4 +1,4 @@
-This tutorial is an alternative to the outdated source installation instructions on https://lisk.io/documentation/.
+This tutorial is an alternative to the outdated source installation instructions on [https://lisk.io/documentation/](https://lisk.io/documentation/).
 
 This was tested using Ubuntu 18.04 LTS but should work very similar in other versions of Ubuntu.
 
@@ -58,7 +58,8 @@ Description=Lisk Node
 Requires=postgresql.service
 
 [Service]
-Type=forking
+Type=oneshot
+RemainAfterExit=true
 User={{ user }}
 Group={{ user }}
 ExecStart=/workspace/lisk/lisk.sh start_node
