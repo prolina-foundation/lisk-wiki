@@ -46,6 +46,14 @@ or watch the logs:
 tail -f logs/lisk.log
 ```
 
+Now we stop the lisk node and create a service
+
+```
+$ ./lisk.sh stop_node
+√ Lisk stopped successfully.
+```
+
+
 ## Create a service
 
 The Lisk node is only running because `./lisk.sh rebuild` keeps it running. As soon as you restart the machine, the node will be down. PostgreSQL however is installed as a system service and started automatically.
