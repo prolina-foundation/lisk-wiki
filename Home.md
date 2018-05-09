@@ -47,6 +47,7 @@ If you'd like to start contributing today but don't know where to start, you can
 * Lisk Elements
 * Lisk Hub
 * Lisk Core
+* Lisk Blockchain Explorer
 * About the Founders
 * About the ICO
 * Communication Channels
@@ -54,6 +55,7 @@ If you'd like to start contributing today but don't know where to start, you can
 * Docker Installation
 * How to become a Delegate
 * Reward sharing
+* Voting rules
 * Passphrase
 * Network speed (Transactions per second, latency, confirmations)
 * Transaction
@@ -61,3 +63,8 @@ If you'd like to start contributing today but don't know where to start, you can
 * Broadhash consensus
 * Address collision and initialization
 * Delegated proof of stake (Lisk's implementation of dPOS)
+* config.json (overview and documentation of every field)
+* Seed nodes
+* Hardware wallets
+* Dynamic fees
+* Sidechains
